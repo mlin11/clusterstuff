@@ -20,7 +20,7 @@ public class CreateFactorSub
 	public static void main(String[] args) throws Exception
 	{
 
-		for (int x = 0; x < 100; x++)
+		for (int x = 0; x < 50; x++)
 		{
 			long startTime = System.currentTimeMillis();
 			countNum++;
