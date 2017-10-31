@@ -37,7 +37,7 @@ public class CreateFactorSub
 
 			long millis = System.currentTimeMillis();
 			File rdpOutFile = new File(
-					RDP_OUT_DIR.getAbsolutePath() + File.separator + countNum + File.separator + millis + RDP_SUFFIX);
+					RDP_OUT_DIR.getAbsolutePath() + File.separator + countNum + "-" + millis + RDP_SUFFIX);
 			BufferedWriter writer = new BufferedWriter(new FileWriter(rdpOutFile));
 			writer.write(numberToFactor + " ");
 
