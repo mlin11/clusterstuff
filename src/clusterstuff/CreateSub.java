@@ -21,8 +21,8 @@ public class CreateSub
 			File runFile = new File(RDP_RUN_DIR.getAbsoluteFile() + File.separator + "run_" + countNum + ".sh");
 
 			BufferedWriter writer = new BufferedWriter(new FileWriter(runFile));
-			writer.write("cd /net/fantasia/home/maoxuanl/git/clusterstuff/src");
-			writer.write("java clusterstuff/CreateFactorSub");
+			writer.write("cd /net/fantasia/home/maoxuanl/git/clusterstuff/src\n");
+			writer.write("java clusterstuff/CreateFactorSub\n");
 
 			writer.flush();
 			writer.close();

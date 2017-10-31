@@ -46,7 +46,7 @@ public class CreateFactorSub
 			else
 				writer.write(factors.toString());
 
-			writer.write("Total time : " + (System.currentTimeMillis() - startTime) / 1000f);
+			writer.write("\nTotal time : " + (System.currentTimeMillis() - startTime) / 1000f);
 
 			writer.flush();
 			writer.close();
